@@ -24,6 +24,7 @@
 
 html {
     box-sizing: border-box;
+    min-height: 100vh;
 }
 
 body {
@@ -222,7 +223,6 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: var(--pale-blue);
     }
 
     .results-summary {
